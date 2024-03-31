@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Shake Me!",
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/magic-8-ball/magic-8-ball-title.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/magic-8-ball/magic-8-ball-title-2.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Magic 8 Ball',
     description:  'Reveal your future with the Magic 8 Ball!',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/magic-8-ball/magic-8-ball-title.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/magic-8-ball/magic-8-ball-title-2.png`],
   },
   other: {
     ...frameMetadata,

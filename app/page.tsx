@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin"
+      label: "Shake Me!",
     }
   ],
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/magic-8-ball/magic-8-ball-title.png`,
